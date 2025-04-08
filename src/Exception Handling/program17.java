@@ -20,6 +20,10 @@ class MyCalculator
         {
             throw new Exception("Power cannot be negative");
         }
+        if(n==0 && p==0)
+        {
+            throw new Exception("both Power and Base cannot be zero");
+        }
     }
     double power()
     {
